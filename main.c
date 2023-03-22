@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include <sys/ioctl.h>
 #include "fdlibrary.h"
 #define SERIAL_BUFFER 512
 
